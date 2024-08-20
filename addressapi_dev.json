@@ -1,0 +1,65 @@
+{
+    "name": "ADR_EU",
+    "user": "addressapi",
+    "cluster": "12/main",
+    "import_log_dir": "/opt/data/addressapi/logs",
+    "data":[],
+    "functions":[
+        {
+            "name":"addressApi",
+            "createfunctionssql": "/opt/shared-data/addresses/latest/AddressAPI.sql"
+        }
+    ],
+    "dumps":[
+        {
+            "id": "API_AU_LEVEL1_EU",
+            "path": "/opt/shared-data/addresses/latest/API_AU_LEVEL1_EU.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "API_AU_LEVEL2_EU",
+            "path": "/opt/shared-data/addresses/latest/API_AU_LEVEL2_EU.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "level1",
+            "path": "/opt/shared-data/addresses/latest/level1.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "level2",
+            "path": "/opt/shared-data/addresses/latest/level2.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "locatordesignator",
+            "path": "/opt/shared-data/addresses/latest/locatordesignator.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "postcode",
+            "path": "/opt/shared-data/addresses/latest/postcode.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "thoroughfare",
+            "path": "/opt/shared-data/addresses/latest/thoroughfare.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "address_view_EU",
+            "path": "/opt/shared-data/addresses/latest/address_view_EU.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "Gisco",
+            "path": "/opt/shared-data/addresses/latest/Gisco.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        },
+        {
+            "id": "copyright",
+            "path": "/opt/shared-data/addresses/latest/copyright.backup",
+            "pg_restore_options": "--no-owner --role=addressapi"
+        }
+    ]
+}

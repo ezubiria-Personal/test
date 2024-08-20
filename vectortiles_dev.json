@@ -1,0 +1,320 @@
+{
+  "name": "vectortiles",
+  "user": "vectortiles",
+  "cluster": "14/main",
+  "import_log_dir": "/opt/data/vectortiles/logs",
+  "data":[
+    {
+      "name": "countries_rg_4326",
+      "schema": "gisco",
+      "fields": "cntr_id,name_engl",
+      "tables": {
+        "cntr_rg_60m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2020_4326.geojson",
+        "cntr_rg_60m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2016_4326.geojson",
+        "cntr_rg_60m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2013_4326.geojson",
+        "cntr_rg_60m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2010_4326.geojson",
+        "cntr_rg_60m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2006_4326.geojson",
+        "cntr_rg_20m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2020_4326.geojson",
+        "cntr_rg_20m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2016_4326.geojson",
+        "cntr_rg_20m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2013_4326.geojson",
+        "cntr_rg_20m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2010_4326.geojson",
+        "cntr_rg_20m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2006_4326.geojson",
+        "cntr_rg_10m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2020_4326.geojson",
+        "cntr_rg_10m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2016_4326.geojson",
+        "cntr_rg_10m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2013_4326.geojson",
+        "cntr_rg_10m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2010_4326.geojson",
+        "cntr_rg_10m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2006_4326.geojson",
+        "cntr_rg_03m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2020_4326.geojson",
+        "cntr_rg_03m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2016_4326.geojson",
+        "cntr_rg_03m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2013_4326.geojson",
+        "cntr_rg_03m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2010_4326.geojson",
+        "cntr_rg_03m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2006_4326.geojson",
+        "cntr_rg_01m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2020_4326.geojson",
+        "cntr_rg_01m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2016_4326.geojson",
+        "cntr_rg_01m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2013_4326.geojson",
+        "cntr_rg_01m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2010_4326.geojson",
+        "cntr_rg_01m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2006_4326.geojson"
+      }
+    },
+    {
+      "name": "countries_rg_3857",
+      "schema": "gisco",
+      "fields": "cntr_id,name_engl",
+      "tables": {
+        "cntr_rg_60m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2020_3857.geojson",
+        "cntr_rg_60m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2016_3857.geojson",
+        "cntr_rg_60m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2013_3857.geojson",
+        "cntr_rg_60m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2010_3857.geojson",
+        "cntr_rg_60m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_60M_2006_3857.geojson",
+        "cntr_rg_20m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2020_3857.geojson",
+        "cntr_rg_20m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2016_3857.geojson",
+        "cntr_rg_20m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2013_3857.geojson",
+        "cntr_rg_20m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2010_3857.geojson",
+        "cntr_rg_20m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_20M_2006_3857.geojson",
+        "cntr_rg_10m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2020_3857.geojson",
+        "cntr_rg_10m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2016_3857.geojson",
+        "cntr_rg_10m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2013_3857.geojson",
+        "cntr_rg_10m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2010_3857.geojson",
+        "cntr_rg_10m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_10M_2006_3857.geojson",
+        "cntr_rg_03m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2020_3857.geojson",
+        "cntr_rg_03m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2016_3857.geojson",
+        "cntr_rg_03m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2013_3857.geojson",
+        "cntr_rg_03m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2010_3857.geojson",
+        "cntr_rg_03m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_03M_2006_3857.geojson",
+        "cntr_rg_01m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2020_3857.geojson",
+        "cntr_rg_01m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2016_3857.geojson",
+        "cntr_rg_01m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2013_3857.geojson",
+        "cntr_rg_01m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2010_3857.geojson",
+        "cntr_rg_01m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_RG_01M_2006_3857.geojson"
+      }
+    },
+    {
+      "name": "countries_bn_4326",
+      "schema": "gisco",
+      "fields": "cntr_bn_id",
+      "geometrytype": "MULTILINESTRING",
+      "tables": {
+        "cntr_bn_60m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2020_4326.geojson",
+        "cntr_bn_60m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2016_4326.geojson",
+        "cntr_bn_60m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2013_4326.geojson",
+        "cntr_bn_60m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2010_4326.geojson",
+        "cntr_bn_60m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2006_4326.geojson",
+        "cntr_bn_20m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2020_4326.geojson",
+        "cntr_bn_20m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2016_4326.geojson",
+        "cntr_bn_20m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2013_4326.geojson",
+        "cntr_bn_20m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2010_4326.geojson",
+        "cntr_bn_20m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2006_4326.geojson",
+        "cntr_bn_10m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2020_4326.geojson",
+        "cntr_bn_10m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2016_4326.geojson",
+        "cntr_bn_10m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2013_4326.geojson",
+        "cntr_bn_10m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2010_4326.geojson",
+        "cntr_bn_10m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2006_4326.geojson",
+        "cntr_bn_03m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2020_4326.geojson",
+        "cntr_bn_03m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2016_4326.geojson",
+        "cntr_bn_03m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2013_4326.geojson",
+        "cntr_bn_03m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2010_4326.geojson",
+        "cntr_bn_03m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2006_4326.geojson",
+        "cntr_bn_01m_2020_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2020_4326.geojson",
+        "cntr_bn_01m_2016_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2016_4326.geojson",
+        "cntr_bn_01m_2013_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2013_4326.geojson",
+        "cntr_bn_01m_2010_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2010_4326.geojson",
+        "cntr_bn_01m_2006_4326": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2006_4326.geojson"
+      }
+    },
+    {
+      "name": "countries_bn_3857",
+      "schema": "gisco",
+      "fields": "cntr_bn_id",
+      "geometrytype": "MULTILINESTRING",
+      "tables": {
+        "cntr_bn_60m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2020_3857.geojson",
+        "cntr_bn_60m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2016_3857.geojson",
+        "cntr_bn_60m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2013_3857.geojson",
+        "cntr_bn_60m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2010_3857.geojson",
+        "cntr_bn_60m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_60M_2006_3857.geojson",
+        "cntr_bn_20m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2020_3857.geojson",
+        "cntr_bn_20m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2016_3857.geojson",
+        "cntr_bn_20m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2013_3857.geojson",
+        "cntr_bn_20m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2010_3857.geojson",
+        "cntr_bn_20m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_20M_2006_3857.geojson",
+        "cntr_bn_10m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2020_3857.geojson",
+        "cntr_bn_10m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2016_3857.geojson",
+        "cntr_bn_10m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2013_3857.geojson",
+        "cntr_bn_10m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2010_3857.geojson",
+        "cntr_bn_10m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_10M_2006_3857.geojson",
+        "cntr_bn_03m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2020_3857.geojson",
+        "cntr_bn_03m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2016_3857.geojson",
+        "cntr_bn_03m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2013_3857.geojson",
+        "cntr_bn_03m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2010_3857.geojson",
+        "cntr_bn_03m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_03M_2006_3857.geojson",
+        "cntr_bn_01m_2020_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2020_3857.geojson",
+        "cntr_bn_01m_2016_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2016_3857.geojson",
+        "cntr_bn_01m_2013_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2013_3857.geojson",
+        "cntr_bn_01m_2010_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2010_3857.geojson",
+        "cntr_bn_01m_2006_3857": "/opt/distribution/v2/countries/geojson/CNTR_BN_01M_2006_3857.geojson"
+      }
+    },
+    {
+      "name": "nuts_4326",
+      "schema": "gisco",
+      "fields": "NUTS_ID,LEVL_CODE",
+      "tables": {
+        "nuts_rg_60m_2021_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2021_4326.geojson",
+        "nuts_rg_60m_2016_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2016_4326.geojson",
+        "nuts_rg_60m_2013_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2013_4326.geojson",
+        "nuts_rg_60m_2010_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2010_4326.geojson",
+        "nuts_rg_60m_2006_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2006_4326.geojson",
+        "nuts_rg_20m_2021_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2021_4326.geojson",
+        "nuts_rg_20m_2016_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2016_4326.geojson",
+        "nuts_rg_20m_2013_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2013_4326.geojson",
+        "nuts_rg_20m_2010_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2010_4326.geojson",
+        "nuts_rg_20m_2006_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2006_4326.geojson",
+        "nuts_rg_10m_2021_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2021_4326.geojson",
+        "nuts_rg_10m_2016_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2016_4326.geojson",
+        "nuts_rg_10m_2013_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2013_4326.geojson",
+        "nuts_rg_10m_2010_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2010_4326.geojson",
+        "nuts_rg_10m_2006_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2006_4326.geojson",
+        "nuts_rg_03m_2021_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2021_4326.geojson",
+        "nuts_rg_03m_2016_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2016_4326.geojson",
+        "nuts_rg_03m_2013_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2013_4326.geojson",
+        "nuts_rg_03m_2010_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2010_4326.geojson",
+        "nuts_rg_03m_2006_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2006_4326.geojson",
+        "nuts_rg_01m_2021_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2021_4326.geojson",
+        "nuts_rg_01m_2016_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2016_4326.geojson",
+        "nuts_rg_01m_2013_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2013_4326.geojson",
+        "nuts_rg_01m_2010_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2010_4326.geojson",
+        "nuts_rg_01m_2006_4326": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2006_4326.geojson"
+      }
+    },
+    {
+      "name": "nuts_3857",
+      "schema": "gisco",
+      "fields": "NUTS_ID,LEVL_CODE",
+      "tables": {
+        "nuts_rg_60m_2021_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2021_3857.geojson",
+        "nuts_rg_60m_2016_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2016_3857.geojson",
+        "nuts_rg_60m_2013_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2013_3857.geojson",
+        "nuts_rg_60m_2010_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2010_3857.geojson",
+        "nuts_rg_60m_2006_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_60M_2006_3857.geojson",
+        "nuts_rg_20m_2021_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2021_3857.geojson",
+        "nuts_rg_20m_2016_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2016_3857.geojson",
+        "nuts_rg_20m_2013_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2013_3857.geojson",
+        "nuts_rg_20m_2010_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2010_3857.geojson",
+        "nuts_rg_20m_2006_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_20M_2006_3857.geojson",
+        "nuts_rg_10m_2021_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2021_3857.geojson",
+        "nuts_rg_10m_2016_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2016_3857.geojson",
+        "nuts_rg_10m_2013_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2013_3857.geojson",
+        "nuts_rg_10m_2010_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2010_3857.geojson",
+        "nuts_rg_10m_2006_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_10M_2006_3857.geojson",
+        "nuts_rg_03m_2021_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2021_3857.geojson",
+        "nuts_rg_03m_2016_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2016_3857.geojson",
+        "nuts_rg_03m_2013_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2013_3857.geojson",
+        "nuts_rg_03m_2010_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2010_3857.geojson",
+        "nuts_rg_03m_2006_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_03M_2006_3857.geojson",
+        "nuts_rg_01m_2021_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2021_3857.geojson",
+        "nuts_rg_01m_2016_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2016_3857.geojson",
+        "nuts_rg_01m_2013_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2013_3857.geojson",
+        "nuts_rg_01m_2010_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2010_3857.geojson",
+        "nuts_rg_01m_2006_3857": "/opt/distribution/v2/nuts/geojson/NUTS_RG_01M_2006_3857.geojson"
+      }
+    },
+    {
+      "name": "laus_4326",
+      "schema": "gisco",
+      "fields": "gisco_id,lau_name",
+      "tables": {
+        "lau_rg_01m_2019_4326": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2019_4326.geojson",
+        "lau_rg_01m_2018_4326": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2018_4326.geojson",
+        "lau_rg_01m_2017_4326": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2017_4326.geojson",
+        "lau_rg_01m_2016_4326": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2016_4326.geojson"
+      }
+    },
+    {
+      "name": "laus_3857",
+      "schema": "gisco",
+      "fields": "gisco_id,lau_name",
+      "tables": {
+        "lau_rg_01m_2019_3857": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2019_3857.geojson",
+        "lau_rg_01m_2018_3857": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2018_3857.geojson",
+        "lau_rg_01m_2017_3857": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2017_3857.geojson",
+        "lau_rg_01m_2016_3857": "/opt/distribution/v2/lau/geojson/LAU_RG_01M_2016_3857.geojson"
+      }
+    },
+    {
+      "name": "biogeoregions_rg_100k_2016_4326",
+      "t_srs":4326,
+      "schema": "gisco",
+      "fields": "code,name,short_name",
+      "tables": {
+        "biogeoregions_rg_100k_2016_4326": "opt/shared-data/eea/shp/BiogeoRegions2016.shp"
+      }
+    },
+    {
+      "name": "biogeoregions_rg_100k_2016_3857",
+      "t_srs":3857,
+      "schema": "gisco",
+      "fields": "code,name,short_name",
+      "tables": {
+        "biogeoregions_rg_100k_2016_3857": "opt/shared-data/eea/shp/BiogeoRegions2016.shp"
+      }
+    },
+    {
+      "name": "riverbasins_rg_100k_:2019_4326",
+      "schema": "gisco",
+      "fields": "thematicid,rzoneid,nametxtint,nametext,nametxtlan,sizevalue,sizeuom,link,country",
+      "tables": {
+        "riverbasins_rg_100k_2019_4326": "/opt/shared-data/eea/shp/SubUnit.shp"
+      }
+    },
+    {
+      "name": "gisco_riverbasins_rg_100k_3857",
+      "schema": "gisco",
+      "t_srs":3857,
+      "fields": "thematicid,rzoneid,nametxtint,nametext,nametxtlan,sizevalue,sizeuom,link,country",
+      "tables": {
+        "riverbasins_rg_100k_2019_3857": "/opt/shared-data/eea/shp/SubUnit.shp"
+      }
+    },
+    {
+      "name": "gisco_natura2000_rg_4326",
+      "schema": "gisco",
+      "t_srs":4326,
+      "fields": "SITECODE,SITENAME,RELEASE_DA,MS,SITETYPE,INSPIRE_ID",
+      "tables": {
+        "natura2000_rg_2019_4326": "/opt/shared-data/eea/shp/Natura2000_end2019_epsg3035.shp"
+      }
+    },
+    {
+      "name": "gisco_natura2000_rg_3857",
+      "schema": "gisco",
+      "t_srs":3857,
+      "fields": "SITECODE,SITENAME,RELEASE_DA,MS,SITETYPE,INSPIRE_ID",
+      "tables": {
+        "natura2000_rg_2019_3857": "/opt/shared-data/eea/shp/Natura2000_end2019_epsg3035.shp"
+      }
+    },
+    {
+      "name": "eo_coverage",
+      "schema": "gisco",
+      "t_srs":3857,
+      "fields": "name,country,year",
+      "tables": {
+        "eo_coverage_rg_2024_3857": "/opt/data/osm-ec-mapproxy-config/static/geojson/EU.geojson"
+      }
+    }
+  ],
+  "raster": [
+    {
+      "name": "population-grid_2011_v2.0.1",
+      "schema": "gisco",
+      "year": "2011",
+      "table_owner": "gisco",
+      "tables": {
+        "popgrid_2011_raster_3035": "/opt/pub/population-grid/2011/v2.0.1/data/raster-1k-EPSG3035.tif"
+      }
+    },
+    {
+      "name": "population-grid_2018_v2021.02.10",
+      "schema": "gisco",
+      "year": "2018",
+      "table_owner": "gisco",
+      "tables": {
+        "popgrid_2018_raster_3035": "/opt/pub/population-grid/2018/v2021.02.10/data/raster-1k-EPSG3035.tif"
+      }
+    },
+    {
+      "name": "population-grid_2021_v1.0",
+      "schema": "gisco",
+      "year": "2021",
+      "table_owner": "gisco",
+      "tables": {
+        "popgrid_2021_raster_3035": "/opt/pub/population-grid/2021/v1.0/data/raster-1k-EPSG3035.tif"
+      }
+    }],
+  "functions":[
+    {
+    "name":"pop_by_radius",
+    "createfunctionssql": "/opt/data/vectortiles/scripts/pop_by_radius.sql"
+    }
+  ]
+}
